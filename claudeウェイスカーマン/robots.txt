@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.whiskerman.co.jp/sitemap.xml
+
+# Allow crawling of main pages
+Allow: /index.html
+Allow: /services.html
+Allow: /achievements.html
+Allow: /company.html
+Allow: /contact.html
+
+# Allow crawling of assets
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow specific files
+Disallow: /assets/documents/
+
+# Crawl delay
+Crawl-delay: 1

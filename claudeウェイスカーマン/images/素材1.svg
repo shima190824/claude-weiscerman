@@ -1,0 +1,35 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4FC3F7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#28A745;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 空 -->
+  <rect width="100%" height="70%" fill="url(#skyGradient)"/>
+  
+  <!-- 芝生 -->
+  <rect y="70%" width="100%" height="30%" fill="url(#grassGradient)"/>
+  
+  <!-- 太陽 -->
+  <circle cx="300" cy="200" r="60" fill="#FFD700"/>
+  
+  <!-- 雲 -->
+  <ellipse cx="800" cy="150" rx="80" ry="40" fill="white" opacity="0.8"/>
+  <ellipse cx="1200" cy="200" rx="100" ry="50" fill="white" opacity="0.8"/>
+  
+  <!-- ゴルフホール -->
+  <circle cx="960" cy="900" r="15" fill="#333"/>
+  
+  <!-- フラッグ -->
+  <line x1="960" y1="900" x2="960" y2="800" stroke="#333" stroke-width="3"/>
+  <polygon points="960,800 1020,820 960,840" fill="#FF0000"/>
+  
+  <!-- テキスト -->
+  <text x="50%" y="95%" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#333" opacity="0.7">ゴルフコース背景画像</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  
+  <!-- オフィス机 -->
+  <rect x="50" y="400" width="700" height="150" fill="#8B4513" rx="10"/>
+  
+  <!-- ノートPC -->
+  <rect x="200" y="350" width="120" height="80" fill="#333" rx="5"/>
+  <rect x="205" y="355" width="110" height="60" fill="#000"/>
+  
+  <!-- 書類 -->
+  <rect x="350" y="360" width="80" height="60" fill="white" stroke="#ddd"/>
+  <line x1="360" y1="370" x2="420" y2="370" stroke="#666" stroke-width="2"/>
+  <line x1="360" y1="380" x2="420" y2="380" stroke="#666" stroke-width="1"/>
+  <line x1="360" y1="390" x2="410" y2="390" stroke="#666" stroke-width="1"/>
+  
+  <!-- 握手をする手 -->
+  <ellipse cx="500" cy="300" rx="30" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="570" cy="300" rx="30" ry="20" fill="#FDBCB4"/>
+  <rect x="485" y="290" width="100" height="20" fill="#FDBCB4"/>
+  
+  <!-- ビジネススーツの袖 -->
+  <rect x="450" y="310" width="40" height="30" fill="#000080"/>
+  <rect x="590" y="310" width="40" height="30" fill="#333"/>
+  
+  <!-- タイトル -->
+  <text x="50%" y="90%" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#333">ビジネス商談シーン</text>
+</svg>
